@@ -1,3 +1,6 @@
+@import "./index2.scss";
+
+
 .App {
   text-align: center;
 }
@@ -6,9 +9,8 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
-
 .App-header {
-  background-color: #282c34;
+  @include ch-color($bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

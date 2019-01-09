@@ -1,0 +1,5 @@
+$bg-color:green;
+
+@mixin ch-color($color){
+    background-color:$color;
+}
